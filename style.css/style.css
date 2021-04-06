@@ -71,8 +71,7 @@ float: right;
 }
 .main-section__img{
     background: url('../images/Banner-Art-Left.png') no-repeat ;
-  
-text-align: left;
+    text-align: left;
 }
 .main-section__img img{
 width: 470px;
