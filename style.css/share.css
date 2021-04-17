@@ -178,7 +178,7 @@ color: #83677f;
 
 @media only screen and (max-width: 991px){
     .container{
-        width: 90%;
+        width: 85%;
     }
 
     /* navigationmenu */
@@ -186,6 +186,13 @@ color: #83677f;
     .main-navigation{
         display: none;
     }
+    .footer{
+        width: 100%;
+    }
+    .footer__brand img{
+        width: 97px;
+    }
+
 }
 
 

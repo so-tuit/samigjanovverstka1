@@ -37,3 +37,15 @@ padding-left: 0.938rem;
 .contact__send{
     margin-top: 1.875rem;
 }
+
+@media only screen and (max-width:991px){
+
+    .half-row{
+        width: 100%;
+    }
+
+    .contact__firstname,
+    .contact__email{
+        padding: 0;
+    }
+}
