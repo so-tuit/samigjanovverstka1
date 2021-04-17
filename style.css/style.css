@@ -398,10 +398,166 @@ cursor: pointer;
 }
 
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 991px){
+/*main section*/
 .main-section__img{
+    display: none;
+}
+.main-section> div{
+    width: 100%;
+}
+
+/*statistics*/
+.statistics{
+padding-top: 1rem;
+text-align: center;
+}
+
+/* about me section */
+.about-me{
+    padding: 1.5rem 0;
+}
+.about-me > div{
+    width: 100%;
+}
+.about-me__image img{
+    display: none;
+}
+
+/*services*/
+.services{
+    padding: 1.5rem 0;
+    }
+
+    .service-card{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    /*clients*/
+.clients{
+    padding: 1.5rem 0;
+}
+.client-item > div{
+    width: 100%;
+    float: none;
+}
+
+/*blog*/
+.blog{
+    padding: 1.5rem 0;
+}
+.blog-item{
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+/* partners section*/
+.partners{
+    padding: 1.5rem 0;
+    }
+    .partner{
+        display: block;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+@media only screen and (max-width: 767px){
+    /*main section*/
+.main-banner{
+background: none;
+min-height: auto;
+}
+    .main-section__img{
 display: none;
 }
+.main-section__action{
+    display: none;
+}
+.main-section > div{
+    width: 100%;
+}
+.main-section__introduction{
+font-size: 3rem;
+}
+/*statistics section*/
+
+.statistics__item{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+    box-sizing: border-box;
+}
+
+/* about me section */
+.about-me{
+    padding: 1.5rem 0;
+}
+.about-me > div{
+width: 100%;
+}
+.about-me__image img{
+    display: none;
+}
+
+/* services section*/
+.services{
+padding: 1.5rem 0;
+}
+.service-card{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+/*clients*/
+.clients{
+    padding: 1.5rem 0;
+}
+.client-item > div{
+width: 100%;
+float: none;
+}
+
+/* portfolio section */
+.portfolio{
+    padding: 1.5rem 0;
+}
+.portfolio-item{
+    width: 100%;
+}
+.portfolio-item-2,
+.portfolio-item-3{
+position: static;
+}
+
+/*blog*/
+.blog{
+    padding: 1.5rem 0;
+}
+.blog-item{
+    width:100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+/* partners section*/
+.partners{
+padding: 1.5rem 0;
+}
+.partner{
+    display: block;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
 }
 
 

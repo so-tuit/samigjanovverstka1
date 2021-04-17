@@ -176,12 +176,30 @@ color: white;
 color: #83677f;
 }
 
-@media only screen and (max-width: 767px;) {
+@media only screen and (max-width: 991px){
+    .container{
+        width: 90%;
+    }
+
+    /* navigationmenu */
+
+    .main-navigation{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
 .container{
-    width: 96%;
+    width: 92%;
 }
 
     .main-navigation{
+    display: none;
+}
+/* footer */
+
+.footer__navigation{
     display: none;
 }
 }
