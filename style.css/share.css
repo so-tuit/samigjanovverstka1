@@ -116,11 +116,13 @@ html{
     width: 70px;
     }
 
+    .main-navigation__items{
+        display: flex;
     }
+
     .main-navigation__item {
-    display: flex;
-    padding: 0.625rem;
-    
+        padding: 0.625rem; 
+        list-style: none;
     }
 
     .main-navigation__item a {
