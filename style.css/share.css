@@ -1,4 +1,10 @@
-body{
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+   body{
     font-family: sans-serif, Arial, Helvetica;
     margin: 0;
     }
@@ -112,8 +118,9 @@ body{
 
     }
     .main-navigation__item {
-    display: inline-block;
+    display: flex;
     padding: 0.625rem;
+    
     }
 
     .main-navigation__item a {
